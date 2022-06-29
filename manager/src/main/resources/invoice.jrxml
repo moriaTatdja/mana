@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.1.final using JasperReports Library version 6.19.1-867c00bf88cd4d784d404379d6c05e1b419e8a4c  -->
+<jasperReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns="http://jasperreports.sourceforge.net/jasperreports"
+              xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd"
+              name="invoice" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20"
+              topMargin="20" bottomMargin="20" uuid="98cfc034-4cf8-456e-98ed-28192ed66f5e">
+    <property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+    <queryString>
+        <![CDATA[]]>
+    </queryString>
+    <background>
+        <band splitType="Stretch"/>
+    </background>
+    <title>
+        <band height="110" splitType="Stretch">
+            <frame>
+                <reportElement mode="Opaque" x="-10" y="-10" width="570" height="100" backcolor="#F2F2F2"
+                               uuid="cbf17745-7d76-46b7-90de-46961ce751ad">
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#525252"/>
+                </box>
+                <staticText>
+                    <reportElement x="131" y="41" width="339" height="30" uuid="6e3c5c6e-c625-488e-bb31-57098dc96b8e"/>
+                    <textElement textAlignment="Center">
+                        <font fontName="Arial Black" size="20"/>
+                    </textElement>
+                    <text><![CDATA[Rechnung]]></text>
+                </staticText>
+                <image>
+                    <reportElement x="11" y="9" width="120" height="90" uuid="15941b3b-d15e-4805-9a5c-527a8287d281"/>
+                    <imageExpression><![CDATA["http://in-and-out-fulda.de/Logo.jpg"]]></imageExpression>
+                </image>
+            </frame>
+        </band>
+    </title>
+    <pageHeader>
+        <band height="550" splitType="Stretch">
+            <frame>
+                <reportElement mode="Opaque" x="-10" y="-10" width="570" height="550" backcolor="#C2C2C2"
+                               uuid="fd25e7a4-1fa1-493d-95df-0cbb4bcdd137"/>
+                <box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#59B9D9"/>
+                    <topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                    <rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+                </box>
+            </frame>
+        </band>
+    </pageHeader>
+    <pageFooter>
+        <band height="110" splitType="Stretch">
+            <frame>
+                <reportElement mode="Opaque" x="-10" y="0" width="570" height="100" backcolor="#F2F2F2"
+                               uuid="cbf17745-7d76-46b7-90de-46961ce751ad">
+                    <property name="com.jaspersoft.studio.unit.y" value="px"/>
+                    <property name="com.jaspersoft.studio.unit.width" value="px"/>
+                </reportElement>
+                <box>
+                    <pen lineWidth="1.0" lineStyle="Solid" lineColor="#525252"/>
+                </box>
+                <staticText>
+                    <reportElement x="131" y="41" width="339" height="30" uuid="6e3c5c6e-c625-488e-bb31-57098dc96b8e"/>
+                    <textElement textAlignment="Center">
+                        <font fontName="Arial Black" size="20"/>
+                    </textElement>
+                    <text><![CDATA[Rechnung]]></text>
+                </staticText>
+                <image>
+                    <reportElement x="11" y="9" width="120" height="90" uuid="15941b3b-d15e-4805-9a5c-527a8287d281"/>
+                    <imageExpression><![CDATA["http://in-and-out-fulda.de/Logo.jpg"]]></imageExpression>
+                </image>
+            </frame>
+        </band>
+    </pageFooter>
+</jasperReport>
